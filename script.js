@@ -49,3 +49,8 @@ $(function() {
 	load(id);
 	load_verses();
 });
+
+// Hotkeys!!! Relies on mousetrap 1.61
+Mousetrap.bind('left', function() { previous(); } );
+Mousetrap.bind('right', function() { next(); } );
+Mousetrap.bind('?', function() { $('#jump').slideToggle('fast'); } );

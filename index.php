@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="fullscreen">
 	<div id="jump">
 		<a onclick="previous()" class="btn previous">&laquo; previous</a>
 
@@ -140,6 +140,8 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.2/vue.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="mousetrap161.js"></script>
+
 	<script src="script.js" charset="utf-8"></script>
 	<script type="text/javascript">
 		var id = <?=$id?>;

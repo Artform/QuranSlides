@@ -1,18 +1,19 @@
-body {
+body.fullscreen {
 	margin: 0;
 	font-size: 36pt;
 	text-align: center;
-} #translit {
+} .fullscreen #translit {
 	color: #555;
 	font-style: italic;
 	font-size: 80%;
 } #jump {
+	display: none;
 	background: #eee;
 	padding: 10px;
 	margin-bottom: 1em;
-} #quran div {
+} .fullscreen #quran div {
 	padding: 1em 3em;
-} .btn {
+} .fullscreen .btn {
 	font-size: 12px;
 	background: #000;
 	color: #fff;
